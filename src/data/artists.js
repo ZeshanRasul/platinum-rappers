@@ -90,63 +90,95 @@ const artists = [
     ],
   },
   {
-    'id': 'kanye-west',
-    'name':
-    'country':
-    'birth':
-    'image':
-    'cover':
-    'link':
+    'id': 'll-cool-j',
+    'name': 'LL Cool J',
+    'country': 'USA',
+    'birth': '1968',
+    'image': 'll-cool-j.jpg',
+    'cover': 'll-cool-j-cover.jpg',
+    'link': 'https://en.wikipedia.org/wiki/LL_Cool_J',
     'albums': [
-
+      {'name': 'Radio', 'year': '1985' },
+      {'name': "Bigger and Deffer", 'year': '1987' },
+      {'name': 'Walking with a Panther', 'year': '1989' },
+      {'name': 'Mama Said Knock You Out', 'year': '1990' },
+      {'name': 'Mr. Smith', 'year': '1995' },
+      {'name': 'All World: Greatest Hits', 'year': '1996' },
+      {'name': 'Phenomenon', 'year': '1997' },
+      {'name': 'G.O.A.T. (Greatest Of All Time)', 'year': '2000' }
+    ],
+  },
+  {
+    'id': 'kanye-west',
+    'name': 'Kanye West',
+    'country': 'USA',
+    'birth': '1977',
+    'image': 'kanye-west.jpg',
+    'cover': 'kanye-west-cover.jpg',
+    'link': 'https://en.wikipedia.org/wiki/Kanye_West',
+    'albums': [
+      {'name': 'The College Dropout', 'year': '2004' },
+      {'name': 'Late Registration', 'year': '2005' },
+      {'name': 'Graduation', 'year': '2007' },
+      {'name': '808s & Heartbreak', 'year': '2008' },
+      {'name': 'My Beautiful Dark Twisted Fantasy', 'year': '2010' },
+      {'name': 'Watch the Throne (with Jay Z)', 'year': '2011' },
+      {'name': 'Yeezus', 'year': '2013' }
     ],
   },
   {
     'id': 'beastie-boys',
-    'name':
-    'country':
-    'birth':
-    'image':
-    'cover':
-    'link':
+    'name': 'Beastie Boys',
+    'country': 'USA',
+    'birth': 'Various',
+    'image': 'beastie-boys.jpg',
+    'cover': 'beastie-boys-cover.jpg',
+    'link': 'https://en.wikipedia.org/wiki/Beastie_Boys',
     'albums': [
-
-    ],
-  },
-  {
-    'id': 'll-cool-j',
-    'name':
-    'country':
-    'birth':
-    'image':
-    'cover':
-    'link':
-    'albums': [
-
+      {'name': 'Licensed to Ill', 'year': '1986' },
+      {'name': "Paul's Boutique", 'year': '1989' },
+      {'name': 'Check Your Head', 'year': '1992' },
+      {'name': 'Ill Communication', 'year': '1994' },
+      {'name': 'Hello Nasty', 'year': '1998' },
+      {'name': 'Beastie Boys Anthology: The Sounds of Science', 'year': '1999' },
+      {'name': 'To the 5 Boroughs', 'year': '2004' }
     ],
   },
   {
     'id': 'nas',
-    'name':
-    'country':
-    'birth':
-    'image':
-    'cover':
-    'link':
+    'name': 'Nasir bin Olu Dara Jones',
+    'country': 'USA',
+    'birth': '1973',
+    'image': 'nas.jpg',
+    'cover': 'nas-cover.jpg',
+    'link': 'https://en.wikipedia.org/wiki/Nas',
     'albums': [
-
+      {'name': 'Illmatic', 'year': '1994' },
+      {'name': "It Was Written", 'year': '1996' },
+      {'name': 'I Am...', 'year': '1999' },
+      {'name': 'Nastradamus', 'year': '2001' },
+      {'name': 'Stillmatic', 'year': '2002' },
+      {'name': "God's Son", 'year': '2004' },
+      {'name': "Street's Disciple", 'year': '2004' }
     ],
   },
   {
     'id': 'outkast',
-    'name':
-    'country':
-    'birth':
-    'image':
-    'cover':
-    'link':
+    'name': 'Outkast',
+    'country': 'USA',
+    'birth': 'Various',
+    'image': 'outkast.jpg',
+    'cover': 'outkast-cover.jpg',
+    'link': 'https://en.wikipedia.org/wiki/Outkast',
     'albums': [
-
+      {'name': 'Southernplayalisticadillacmuzik', 'year': '1994' },
+      {'name': "ATLiens", 'year': '1996' },
+      {'name': 'Aquemini', 'year': '1998' },
+      {'name': 'Stankonia', 'year': '2000' },
+      {'name': 'Speakerboxxx/The Love Below', 'year': '2003' },
+      {'name': 'The Videos', 'year': '2003' },
+      {'name': "Big Boi and Dre Present... Outkast", 'year': '2001' },
+      {'name': "Idlewild", 'year': '2006' }
     ],
   },
-]
+];
