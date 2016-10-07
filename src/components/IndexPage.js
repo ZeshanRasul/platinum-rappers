@@ -7,7 +7,7 @@ export default class IndexPage extends React.Component {
     return (
       <div className="home">
         <div className="artists-selector">
-          {artists.map(artistData => <ArtistPreview key={artistData.id} />)}
+          {artists.map(artistData => <ArtistPreview key={artistData.id} {...artistData} />)}
         </div>
       </div>
     );

@@ -180,5 +180,7 @@ const artists = [
       {'name': 'Beastie Boys Anthology: The Sounds of Science', 'year': '1999' },
       {'name': 'To the 5 Boroughs', 'year': '2004' }
     ],
-  },
+  }
 ];
+
+export default artists;

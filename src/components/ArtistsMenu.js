@@ -8,7 +8,7 @@ export default class ArtistsMenu extends React.Component{
   render() {
     return(
       <nav className="artists-menu">
-        {artists.map(menuAthlete => {
+        {artists.map(menuArtist => {
           return <Link key={menuArtist.id} to={`/artist/${menuArtist.id}`} activeClassName="active">
             {menuArtist.name}
           </Link>;
