@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router';
 import NotFoundPage from './NotFoundPage';
-import ArtistMenu from './ArtistMenu';
+import ArtistMenu from './ArtistsMenu';
 import Flag from './Flag';
 import artists from '../data/artists';
 
