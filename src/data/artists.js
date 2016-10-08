@@ -52,7 +52,7 @@ const artists = [
   },
   {
     'id': 'eminem',
-    'name': 'Eminem (Marshall Mathers)',
+    'name': 'Eminem',
     'country': 'USA',
     'birth': '1972',
     'image': 'eminem.jpg',
@@ -83,15 +83,15 @@ const artists = [
       {'name': "ATLiens", 'year': '1996' },
       {'name': 'Aquemini', 'year': '1998' },
       {'name': 'Stankonia', 'year': '2000' },
+      {'name': "Big Boi and Dre Present... Outkast", 'year': '2001' },
       {'name': 'Speakerboxxx/The Love Below', 'year': '2003' },
       {'name': 'The Videos', 'year': '2003' },
-      {'name': "Big Boi and Dre Present... Outkast", 'year': '2001' },
       {'name': "Idlewild", 'year': '2006' }
     ],
   },
   {
     'id': 'snoop-dogg',
-    'name': 'Snoop Dogg (Cordozar Calvin Broadus, Jr.)',
+    'name': 'Snoop Dogg',
     'country': 'USA',
     'birth': '1971',
     'image': 'snoop-dogg.jpg',
@@ -147,7 +147,7 @@ const artists = [
   },
   {
     'id': 'nas',
-    'name': 'Nasir bin Olu Dara Jones',
+    'name': 'Nas',
     'country': 'USA',
     'birth': '1973',
     'image': 'nas.jpg',

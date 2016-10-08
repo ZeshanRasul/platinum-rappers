@@ -23,11 +23,11 @@ export default class ArtistPage extends React.Component {
             <h2 className="name"> {artist.name} </h2>
           </div>
           <section className="description">
-            Platinum rapper from <strong> {artist.country} </strong>,
+            From <strong> {artist.country} </strong>,
             born in {artist.birth}. (Find out more on <a href={artist.link} target="_blank">Wikipedia</a> )
           </section>
           <section className="albums">
-            <p> Released <strong> {artist.albums.length} </strong> albums: </p>
+            <p> Released <strong> {artist.albums.length} </strong> Platinum albums: </p>
             <ul>{
              artist.albums.map((album, i) => <Album key={i} {...album}/>)
            }</ul>
