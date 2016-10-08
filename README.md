@@ -1,5 +1,7 @@
 # Platinum Rappers
 
+A Universal JavaScript application with React and Node.js.
+
 Following a React.js tutorial which can be found [here](https://scotch.io/tutorials/react-on-the-server-for-beginners-build-a-universal-react-and-node-app).
 
 Adapted to display the hip-hop/rap artists with the most platinum albums accounting those certified under RIAA and/or BPI designations.
