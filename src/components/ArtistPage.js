@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router';
 import NotFoundPage from './NotFoundPage';
 import ArtistsMenu from './ArtistsMenu';
-// import Flag from './Flag';
+import Album from './Album';
 import artists from '../data/artists';
 
 export default class ArtistPage extends React.Component {
@@ -28,6 +28,9 @@ export default class ArtistPage extends React.Component {
           </section>
           <section className="albums">
             <p> Released <strong> {artist.albums.length} </strong> albums: </p>
+            <ul>{
+             artist.albums.map((album, i) => <Album key={i} {...album}/>)
+           }</ul>
           </section>
           <div className="navigateBack">
             <Link to="/"> «Back to the Index </Link>
